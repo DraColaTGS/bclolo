@@ -5,6 +5,7 @@ const prefix   = "^";
 
 
 client.on("message", message => {
+const prefix   = "^";
   if (message.content === `${prefix}help`) {
   const embed = new Discord.RichEmbed()
       .setColor("#000000")
