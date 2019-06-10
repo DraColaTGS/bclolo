@@ -31,7 +31,7 @@ const prefix   = "^";
    }
    });
 
-const developers = ["439020996171923466"]
+const developers = ["539541145835929623","439020996171923466"]
 const adminprefix = "^";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
