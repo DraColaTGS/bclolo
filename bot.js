@@ -1,12 +1,8 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
- 
- 
-
-  
-
-const client     = new Discord.Client();
 const prefix   = "^";
+
+
 
 client.on("message", message => {
   if (message.content === `${prefix}help`) {
